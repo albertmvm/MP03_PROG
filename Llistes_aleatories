@@ -1,0 +1,21 @@
+########### Llistes aleatòries ###############
+
+import random
+
+llista1 = [random.randint(1, 99) for i in range(10)]
+llista2 = [random.randint(1, 99) for i in range(random.randint(5, 8))]
+
+print("Llista 1:", llista1)
+print("Llista 2:", llista2)
+
+suma_llistes = llista1 + llista2
+
+llista_sense_duplicats = []
+for num in suma_llistes:
+    if num not in llista_sense_duplicats:
+        llista_sense_duplicats.append(num)
+
+resultat = sum(llista_sense_duplicats)
+
+print("\nNova Llista sense duplicats:", llista_sense_duplicats)
+print("Suma dels nombres únics:", resultat)

@@ -1,0 +1,53 @@
+
+num_notes = 3
+media_set = []
+media_vuit = []
+
+num_alumnes = int(input("Quants alumnes evaluarem: "))
+
+for i in range(num_alumnes):
+    nom = input("Nom de l'alumne: ")
+    cognom = input("Cognom de l'alumne: ")
+    edat = int(input("Edat de l'alumne: "))
+    notes = [None] * num_notes
+    for j in range(num_notes):
+        notes[j] = int(input(f"Nota {j} de l'alumne: "))
+        alumnes[i] = (nom, cognom, edat, notes[1], notes[2], notes[3])
+
+for alumne in alumnes:
+    avg = alumne[3] * 0.3 + alumne[4] * 0.4 + alumne[5] * 0.3
+    if avg > 7:
+        media_set.append(alumne)
+    if alumne[3] > 8 or alumne[4] > 8 or alumne[5] > 8:
+        media_vuit.append(alumne)
+
+print("Mitjana Superior a 7:")
+for alumne in media_set:
+	print("\nNom:", end=" ")
+	print(alumne[0], end=" ")
+	print(", Cognom:", end=" ")
+	print(alumne[1], end=" ")
+	print(", Edat:", end=" ")
+	print(alumne[2], end=" ")
+	print(", Nota 1:", end=" ")
+	print(alumne[3], end=" ")
+	print(", Nota 2:", end=" ")
+	print(alumne[4], end=" ")
+	print(", Nota 3:", end=" ")
+	print(alumne[5])
+
+print("Alguna nota superior a 8:")
+for alumne in media_vuit:
+	print("\nNom:", end=" ")
+	print(alumne[0], end=" ")
+	print(", Cognom:", end=" ")
+	print(alumne[1], end=" ")
+	print(", Edat:", end=" ")
+	print(alumne[2], end=" ")
+	print(", Nota 1:", end=" ")
+	print(alumne[3], end=" ")
+	print(", Nota 2:", end=" ")
+	print(alumne[4], end=" ")
+	print(", Nota 3:", end=" ")
+	print(alumne[5])
+

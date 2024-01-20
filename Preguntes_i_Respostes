@@ -1,0 +1,21 @@
+########### Preguntes i Respostes ###############
+
+llista_preguntes = (('La suma de, 1+1?', '2'), ('La suma de, 1+2?', '3'), ('La suma de, 3+3?', '6'), ('La suma de, 5+5?', '10'), ('La suma de, 2+3?', '5'), ('La suma de, 7+7?', '14'), ('La suma de, 2+10?', '12'))
+
+punts = 0
+end = 'n'
+
+seed = int(input("Introdueix qualsevol número per poder començar: "))
+
+while end == 'n':
+    seed = (seed * 997) % 1000
+    random = (seed * 503) % 1000 / 1000
+    numero_pregunta = int(random * (len(llista_preguntes)))
+    
+    resposta = input(llista_preguntes[numero_pregunta][0])
+    
+    punts += 1 if resposta == llista_preguntes[numero_pregunta][1] else 0;
+    
+    end = input("Vols sortir?? [S/n] ")
+
+print("Puntuació Total: " , punts)

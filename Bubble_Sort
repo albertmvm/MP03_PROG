@@ -1,0 +1,7 @@
+######## Bubble Sort ##############
+
+array = ["indigo", "groc", "verd", "vermell", "blau", "cian", "taronja"]
+
+paraules_ordenades = sorted(array, key=len)
+
+print(array)

@@ -1,0 +1,12 @@
+########### Estructures de repetició i cadenes ###############
+
+cadena = input("Escriu una cadena de text per a que pugui contar la freqüència de cada paraula en el text: ")
+
+llista = cadena.lower()
+
+frecuencia = []
+for i in llista:
+    frecuencia.append(llista.count(i))
+
+print("\nLista\n" + str(llista) + "\n")
+print("Freqüència\n" + str(frecuencia) + "\n")
