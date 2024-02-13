@@ -1,0 +1,15 @@
+Nivell 1:
+  Menú principal: Mostra les opcions disponibles per a l'usuari i gestiona la selecció de les opcions.
+Nivell 2:
+  Gestió de les Comandes:
+      Presa de comandes: Captura les comandes dels clients, amb les seves pizzes i els ingredients addicionals.
+      Processament de les comandes: Processa les comandes rebudes i envia la informació necessària per a la preparació de les pizzes.
+  Preparació de les Pizzes:
+      Preparació de pizzes: Gestiona la preparació de les pizzes a partir de les comandes rebudes.
+      Control d'estoc d'ingredients: Verifica i actualitza l'estoc d'ingredients abans de la preparació de les pizzes.
+  Gestió d'Estoc:
+      Manteniment de l'estoc: Registra i actualitza l'estoc d'ingredients disponibles per a la preparació de les pizzes.
+      Provisionament d'estoc: Gestiona el reabastiment d'ingredients quan els nivells són baixos.
+  Pagaments:
+      Calcular el preu: Calcula el preu total de la comanda i informa els clients sobre el pagament.
+      Gestio dels Pagaments: Gestiona la recepció i verificació dels pagaments dels clients.
