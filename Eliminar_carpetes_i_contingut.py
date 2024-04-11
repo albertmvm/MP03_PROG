@@ -17,3 +17,5 @@ def eliminar_elements(ruta_carpeta):
         ruta_element = ruta_carpeta + "\\" + element
     else:
         print("La ruta especificada no és vàlida.")
+        
+### NO ESTA TERMINAT AQUEST PROGRAMA ###
