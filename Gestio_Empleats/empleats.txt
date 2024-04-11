@@ -1,3 +1,0 @@
-Albert,Martinez,20
-Paula,Lopez,22
-Iker,Casillas,30
