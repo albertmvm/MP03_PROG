@@ -1,0 +1,9 @@
+Albert,Martinez,20
+Paula,Lopez,22
+Iker,Casillas,30
+Paula,Rodriguez,22
+Albert,Garcia,21
+Iker,Sanchez,32
+Paula,Taule,26
+Paula,Dior,28
+
